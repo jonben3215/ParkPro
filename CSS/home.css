@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Nunito:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bold;
+  overflow-x: hidden;
+}
+
+
+h2
+{
+    font-weight: bold;
+  padding: .2em 0;
+  text-align: center;
+}
+h3 {
+  font-weight: bold;
+  padding: .2em 0;
+  text-align: center;
+}
+.first-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.first-container h1 {
+  font-weight: bold;
+  padding: .2em 0;
+}
+
+.first-container p {
+  margin: 1.8em 0;
+  line-height: 1.8em;
+  word-wrap: break-word;
+  width: 50%;
+}
+
+.first-container img {
+  margin: 1.8em 0;
+  line-height: 1.8em;
+  max-width: 100%;
+}
+
+ul {  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    font-weight: bold;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+.logo {
+    font-weight: bold;
+    text-decoration: none;
+}
+li.logo a
+{
+    color: green; /* Set the text color to green */
+}
+
+li a:hover:not(.active) {
+    background-color: gray;
+    border-radius: 100px;
+}
+
+li a.active {
+    color: white; /* Change the text color to ensure visibility */
+    background-color: green;
+    border-radius: 100px;
+}
+
+li.logo a:hover {
+    background-color: transparent !important;
+}
+
+/* Start Second container */
+.second-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  color: white
+}
+
+.second-container h1 {
+  position: relative;
+  font-weight: bold;
+  overflow: hidden;
+  padding: .2em 0;
+  top: 100px;
+  left: 20%;
+}
+
+.second-container p {
+  position: relative;
+  margin: 1.8em 0;
+  line-height: 1.8em;
+  word-wrap: break-word;
+  overflow: hidden;
+  width: 40%;
+  align-items: center;
+  top: 100px;
+  left: 20%;
+}
+
+.second-container img {
+  max-width: 100%;
+  position: relative;
+  top: center;
+  left: -25%;
+  top: -110px;
+}
+/* Add this media query for smaller screens */
+/* Add this media query for smaller screens */
+@media only screen and (max-width: 1080px) {
+  .second-container {
+    text-align: center; /* Center align the content */
+  }
+
+  .second-container h1,
+  .second-container p {
+    width: 80%; /* Adjust the width of the text */
+    margin: 0 auto; /* Center the text horizontally */
+    position: static; /* Reset position */
+  }
+
+  .second-container img {
+    max-width: 100%;
+    margin-top: 1.8em; /* Add margin to separate image from text */
+    position: static; /* Reset position */
+  }
+}
+/* End Second container */
+
+/* Start third container */
+.third-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+
+}
+
+.third-container h1 {
+  position: relative;
+  font-weight: bold;
+  overflow: hidden;
+  padding: .2em 0;
+  top: 100px;
+  left: 20%;
+}
+
+.third-container p {
+  position: relative;
+  margin: 1.8em 0;
+  line-height: 1.8em;
+  word-wrap: break-word;
+  overflow: hidden;
+  width: 40%;
+  align-items: center;
+  top: 100px;
+  left: 20%;
+}
+
+.third-container img {
+  max-width: 100%;
+  position: relative;
+  top: center;
+  left: -30%;
+  top: -160px;
+}
+/* Add this media query for smaller screens */
+/* Add this media query for smaller screens */
+@media only screen and (max-width: 1080px) {
+  .thrid-container {
+    text-align: center; /* Center align the content */
+  }
+
+  .third-container h1,
+  .third-container p {
+    width: 80%; /* Adjust the width of the text */
+    margin: 0 auto; /* Center the text horizontally */
+    position: static; /* Reset position */
+  }
+
+  .thrid-container img {
+    max-width: 100%;
+    margin-top: 1.8em; /* Add margin to separate image from text */
+    position: static; /* Reset position */
+  }
+}
+/* End third container */
