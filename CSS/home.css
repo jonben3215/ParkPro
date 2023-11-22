@@ -266,25 +266,18 @@ li.logo a:hover {
 /* Add this media query for smaller screens */
 
 /* Add this media query for smaller screens */
-@media only screen and (max-width: 1080px) {
-  .fourth-container {
+@media only screen and (max-width: 600px) {
+  .fifth-container {
     text-align: center; /* Center align the content */
   }
-  .fourth-container ul {
-    list-style-type: none; /* Remove default list-style (bullets) */
-    padding-left: 0; /* Remove default left padding */
-    text-align: center;
-  }
-  .fourth-container ul li {
-    display: block; /* Change display to block */
-    margin-left: 1em; /* Add left margin for indentation */
+  .fourth-container h2,
+  .fifth-container h2 {
+    margin-bottom: 10px; /* Adjust as needed */
   }
 
-  .fourth-container h2
- {
-    width: 80%; /* Adjust the width of the text */
-    margin: 0 auto; /* Center the text horizontally */
-    position: static; /* Reset position */
+  .fourth-container ul,
+  .fifth-container ul {
+    margin-top: 10px; /* Adjust as needed */
   }
 }
 
@@ -333,24 +326,17 @@ li.logo a:hover {
 /* Add this media query for smaller screens */
 
 /* Add this media query for smaller screens */
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 600px) {
   .fifth-container {
     text-align: center; /* Center align the content */
   }
-  .fifth-container ul {
-    list-style-type: none; /* Remove default list-style (bullets) */
-    padding-left: 0; /* Remove default left padding */
-    text-align: center; /* Align list items to the left */
-  }
-  .fifth-container ul li {
-    display: block; /* Change display to block */
-    margin-left: 1em; /* Add left margin for indentation */
+  .fourth-container h2,
+  .fifth-container h2 {
+    margin-bottom: 10px; /* Adjust as needed */
   }
 
-  .fifth-container h2
- {
-    width: 80%; /* Adjust the width of the text */
-    margin: 0 auto; /* Center the text horizontally */
-    position: static; /* Reset position */
+  .fourth-container ul,
+  .fifth-container ul {
+    margin-top: 10px; /* Adjust as needed */
   }
 }
