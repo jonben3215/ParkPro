@@ -176,8 +176,8 @@ li.logo a:hover {
   font-weight: bold;
   overflow: hidden;
   padding: .2em 0;
-  top: 100px;
-  left: 20%;
+  top: 50px;
+  left: 0%;
 }
 
 .third-container p {
@@ -219,4 +219,138 @@ li.logo a:hover {
     position: static; /* Reset position */
   }
 }
+
 /* End third container */
+
+
+/* Fourth container*/
+.fourth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+
+}
+
+.fourth-container h2 {
+  position: relative;
+  font-weight: bold;
+  margin-top: 20px;
+  overflow: hidden;
+  padding: .2em 0;
+  top: 50px;
+  right: 0%;
+}
+.fourth-container ul
+{
+  list-style-type: circle;
+  word-wrap: break-word;
+  position: relative;
+  margin: 1.8em 0;
+  line-height: 1.8em;
+  overflow: hidden;
+  top: 20px;
+  right: -2%;
+}
+.fourth-container ul li
+{
+  list-style-type: circle;
+  position: relative;
+  line-height: 1.8em;
+  word-wrap: break-word;
+  overflow: hidden;
+  width: 90%;
+}
+/* Add this media query for smaller screens */
+
+/* Add this media query for smaller screens */
+@media only screen and (max-width: 1080px) {
+  .fourth-container {
+    text-align: center; /* Center align the content */
+  }
+  .fourth-container ul {
+    list-style-type: none; /* Remove default list-style (bullets) */
+    padding-left: 0; /* Remove default left padding */
+    text-align: center;
+  }
+  .fourth-container ul li {
+    display: block; /* Change display to block */
+    margin-left: 1em; /* Add left margin for indentation */
+  }
+
+  .fourth-container h2
+ {
+    width: 80%; /* Adjust the width of the text */
+    margin: 0 auto; /* Center the text horizontally */
+    position: static; /* Reset position */
+  }
+}
+
+/* End fourth container */
+
+
+/* fifth container*/
+.fifth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+
+}
+
+.fifth-container h2 {
+  position: relative;
+  font-weight: bold;
+  overflow: hidden;
+  padding: .2em 0;
+  top: 50px;
+  right: 0%;
+}
+.fifth-container ul
+{
+  list-style-type: circle;
+  word-wrap: break-word;
+  position: relative;
+  margin: 1.8em 0;
+  line-height: 1.8em;
+  overflow: hidden;
+  top: 20px;
+  right: -2%;
+}
+.fifth-container ul li
+{
+  list-style-type: circle;
+  position: relative;
+  line-height: 1.8em;
+  word-wrap: break-word;
+  overflow: hidden;
+  width: 90%;
+}
+/* Add this media query for smaller screens */
+
+/* Add this media query for smaller screens */
+@media only screen and (max-width: 720px) {
+  .fifth-container {
+    text-align: center; /* Center align the content */
+  }
+  .fifth-container ul {
+    list-style-type: none; /* Remove default list-style (bullets) */
+    padding-left: 0; /* Remove default left padding */
+    text-align: center; /* Align list items to the left */
+  }
+  .fifth-container ul li {
+    display: block; /* Change display to block */
+    margin-left: 1em; /* Add left margin for indentation */
+  }
+
+  .fifth-container h2
+ {
+    width: 80%; /* Adjust the width of the text */
+    margin: 0 auto; /* Center the text horizontally */
+    position: static; /* Reset position */
+  }
+}
